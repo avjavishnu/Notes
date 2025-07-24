@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - NLP Chapter 1: Introduction</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 0; padding: 0;}
+        header {background-color: #335c67; color: white; padding: 20px; text-align: center;}
+        nav {background-color: #e09f3e; display: flex; justify-content: center; flex-wrap: wrap;}
+        nav a {color: white; padding: 14px 20px; text-decoration: none; display: block;}
+        nav a:hover {background-color: #9e2a2b;}
+        .content {padding: 20px; line-height: 1.6;}
+        h1, h2, h3 {color: #335c67;}
+        footer {background-color: #540b0e; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%;}
+	table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #335c67;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>EduLearn - NLP Chapter 1</h1>
+    <p>Introduction to Natural Language Processing</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="nlp.html">Courses</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="content">
+    <h2>Introduction to Natural Language Processing (NLP)</h2>
+
+    <h3>1. Definition of NLP</h3>
+    <p>NLP is a branch of AI and computational linguistics that focuses on the interaction between computers and humans through natural language. The goal is to enable machines to read, understand, and derive meaning from human language in a syntactically and semantically correct way.</p>
+
+    <blockquote>“Natural Language Processing is a computational technique for the automatic analysis and representation of human language to perform useful tasks such as translation, summarization, sentiment analysis, and question answering.”</blockquote>
+
+    <h3>2. Applications of NLP</h3>
+NLP is a foundational component in many modern-day applications across industries. Below are key areas where NLP plays a central role:
+<ol>
+<strong>a. Information Retrieval (IR)</strong>
+<ul>
+<li>Search engines like Google use NLP techniques to understand queries and rank results.</li>
+<li>Query expansion, spell correction, and relevance prediction rely on language models.</li>
+</ul>
+<strong>b. Machine Translation</strong>
+<ul>
+•	Converting text from one language to another using systems like Google Translate or DeepL.
+•	Advanced systems use sequence-to-sequence models and transformers.
+</ul>
+<strong>c. Chatbots and Virtual Assistants</strong>
+<ul>
+•	NLP powers voice-based assistants like Siri, Alexa, and Google Assistant.
+•	Handles natural language understanding (NLU) and generation (NLG).
+</ul>
+<strong>d. Text Classification</strong>
+<ul>
+•	Assigns labels to text (e.g., spam vs. non-spam, positive vs. negative sentiment).
+•	Used in email filtering, product reviews, and social media monitoring.
+</ul>
+<strong>e. Named Entity Recognition (NER)</strong>
+<ul>
+•	Identifies entities such as names, dates, organizations in text.
+•	Used in financial analytics, legal tech, and medical record analysis.
+</ul>
+<strong>f. Speech Technologies</strong>
+<ul>
+•	Speech-to-Text (ASR): Converts spoken language into text.
+•	Text-to-Speech (TTS): Synthesizes speech from written text.
+</ul>
+<strong>g. Text Summarization</strong>
+<ul>
+•	Reduces long documents into concise summaries.
+•	Used in news apps, legal document summarization, and academic research tools.
+</ul>
+<strong>h. Question Answering</strong>
+<ul>
+•	Systems like ChatGPT, BERT-based models can answer open-domain or specific questions.
+•	Applied in search, virtual tutors, and helpdesk automation.
+</ul>
+	</ul>
+</ol>
+    <ul>
+        <li><strong>Information Retrieval:</strong> Search engines, query expansion, spell correction.</li>
+        <li><strong>Machine Translation:</strong> Google Translate, DeepL.</li>
+        <li><strong>Chatbots and Assistants:</strong> Siri, Alexa, Google Assistant.</li>
+        <li><strong>Text Classification:</strong> Spam detection, sentiment analysis.</li>
+        <li><strong>Named Entity Recognition (NER):</strong> Identifying names, dates, organizations.</li>
+        <li><strong>Speech Technologies:</strong> Speech-to-Text, Text-to-Speech.</li>
+        <li><strong>Text Summarization:</strong> Condensing documents.</li>
+        <li><strong>Question Answering:</strong> ChatGPT, BERT-based models.</li>
+    </ul>
+	
+    <h3>3. Challenges in NLP</h3>
+    <ul>
+        <li>Ambiguity in language</li>
+        <li>Context Understanding</li>
+        <li>Language Diversity</li>
+        <li>Informal and Code-Mixed Text</li>
+        <li>Low-Resource Languages</li>
+        <li>Bias and Fairness</li>
+        <li>Computational Requirements</li>
+    </ul>
+
+    <h3>Linguistic Essentials in NLP</h3>
+    <ul>
+        <li><strong>Syntax:</strong> Sentence structure analysis via POS tagging, parsing.</li>
+        <li><strong>Semantics:</strong> Meaning of words, word sense disambiguation.</li>
+        <li><strong>Pragmatics:</strong> Contextual meaning, co-reference resolution, sarcasm detection.</li>
+    </ul>
+
+    <h3>Text Processing Techniques</h3>
+    <ul>
+        <li>Tokenization</li>
+        <li>Lemmatization</li>
+        <li>Stemming</li>
+        <li>Stop Word Removal</li>
+        <li>Normalization</li>
+        <li>N-gram Generation</li>
+        <li>Part-of-Speech Tagging</li>
+        <li>Named Entity Recognition</li>
+    </ul>
+
+    <h3>NLP Libraries: NLTK vs SpaCy</h3>
+    <p><strong>NLTK:</strong> Education and research-focused, extensive features but slower in production.</p>
+    <p><strong>SpaCy:</strong> Production-ready, fast, modern deep learning compatible, pre-trained models.</p>
+
+    <h4>Comparative Summary:</h4>
+    <h4>Comparative Summary:</h4>
+<table>
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>NLTK</th>
+            <th>SpaCy</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Focus</td>
+            <td>Education, Research</td>
+            <td>Production, Speed</td>
+        </tr>
+        <tr>
+            <td>Tokenization</td>
+            <td>Yes</td>
+            <td>Yes (Faster)</td>
+        </tr>
+        <tr>
+            <td>Named Entity Recognition</td>
+            <td>Basic</td>
+            <td>Advanced</td>
+        </tr>
+        <tr>
+            <td>Deep Learning Support</td>
+            <td>Limited</td>
+            <td>Excellent</td>
+        </tr>
+    </tbody>
+</table>
+
+
+</div>
+
+<footer>
+    &copy; 2025 EduLearn. All rights reserved.
+</footer>
+
+</body>
+</html>
